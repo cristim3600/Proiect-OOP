@@ -13,8 +13,8 @@ matrice_rara::matrice_rara(matrice_rara& copy) {
 }
 
 matrice_rara::~matrice_rara() {
-	std::cout << "Matrice stearsa\n";
-	delete &this->element;
+	//std::cout << "Matrice stearsa\n";
+	//delete &this->element;
 }
 
 int matrice_rara::maxim() {
